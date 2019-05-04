@@ -44,10 +44,10 @@ class ViewTest {
     void renderObjectOffScreen1X1RSL() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         String expected =
                 "     \r\n" +
-                        "     \r\n" +
-                        "     \r\n" +
-                        "     \r\n" +
-                        "     \r\n";
+                "     \r\n" +
+                "     \r\n" +
+                "     \r\n" +
+                "     \r\n";
 
         int xPos = 13;
         int yPos = 13;
@@ -62,10 +62,10 @@ class ViewTest {
     void renderObjectAtUpperRightCorner1X1RSL() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         String expected =
                 "x    \r\n" +
-                        "     \r\n" +
-                        "     \r\n" +
-                        "     \r\n" +
-                        "     \r\n";
+                "     \r\n" +
+                "     \r\n" +
+                "     \r\n" +
+                "     \r\n";
 
         int xPos = 0;
         int yPos = 0;
@@ -80,10 +80,10 @@ class ViewTest {
     void renderObjectAtBottomRightCorner1X1RSL() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         String expected =
                 "     \r\n" +
-                        "     \r\n" +
-                        "     \r\n" +
-                        "     \r\n" +
-                        "x    \r\n";
+                "     \r\n" +
+                "     \r\n" +
+                "     \r\n" +
+                "x    \r\n";
 
         int xPos = 0;
         int yPos = 4;
@@ -98,10 +98,10 @@ class ViewTest {
     void renderObjectAtUpperLeftCorner1X1RSL() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         String expected =
                 "    x\r\n" +
-                        "     \r\n" +
-                        "     \r\n" +
-                        "     \r\n" +
-                        "     \r\n";
+                "     \r\n" +
+                "     \r\n" +
+                "     \r\n" +
+                "     \r\n";
 
         int xPos = 4;
         int yPos = 0;
@@ -116,10 +116,10 @@ class ViewTest {
     void renderObjectAtBottomLeftCorner1X1RSL() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         String expected =
                 "     \r\n" +
-                        "     \r\n" +
-                        "     \r\n" +
-                        "     \r\n" +
-                        "    x\r\n";
+                "     \r\n" +
+                "     \r\n" +
+                "     \r\n" +
+                "    x\r\n";
 
         int xPos = 4;
         int yPos = 4;
@@ -134,10 +134,10 @@ class ViewTest {
     void renderObjectAtTheMiddle1X1RSL() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         String expected =
                 "     \r\n" +
-                        "     \r\n" +
-                        "  x  \r\n" +
-                        "     \r\n" +
-                        "     \r\n";
+                "     \r\n" +
+                "  x  \r\n" +
+                "     \r\n" +
+                "     \r\n";
 
         int xPos = 2;
         int yPos = 2;
@@ -154,10 +154,10 @@ class ViewTest {
     void renderObjectAtTheMiddle2X2RSL() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         String expected =
                 "     \r\n" +
-                        "     \r\n" +
-                        "  x> \r\n" +
-                        "  v. \r\n" +
-                        "     \r\n";
+                "     \r\n" +
+                "  x> \r\n" +
+                "  v. \r\n" +
+                "     \r\n";
 
         int xPos = 2;
         int yPos = 2;
@@ -175,10 +175,10 @@ class ViewTest {
     void renderObjectAtUpperLeftCorner2X2RSL() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         String expected =
                 "x>   \r\n" +
-                        "v.   \r\n" +
-                        "     \r\n" +
-                        "     \r\n" +
-                        "     \r\n";
+                "v.   \r\n" +
+                "     \r\n" +
+                "     \r\n" +
+                "     \r\n";
 
         int xPos = 0;
         int yPos = 0;
@@ -196,10 +196,10 @@ class ViewTest {
     void renderObjectAtUpperRightCorner2X2RSL() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         String expected =
                 "   x>\r\n" +
-                        "   v.\r\n" +
-                        "     \r\n" +
-                        "     \r\n" +
-                        "     \r\n";
+                "   v.\r\n" +
+                "     \r\n" +
+                "     \r\n" +
+                "     \r\n";
 
         int xPos = 3;
         int yPos = 0;
@@ -217,10 +217,10 @@ class ViewTest {
     void renderObjectAtBottomRightCorner2X2RSL() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         String expected =
                 "     \r\n" +
-                        "     \r\n" +
-                        "     \r\n" +
-                        "   x>\r\n" +
-                        "   v.\r\n";
+                "     \r\n" +
+                "     \r\n" +
+                "   x>\r\n" +
+                "   v.\r\n";
 
         int xPos = 3;
         int yPos = 3;
@@ -238,10 +238,10 @@ class ViewTest {
     void renderPartsOfTheObjectOffScreenOnXAxis2X2RSL() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         String expected =
                 "     \r\n" +
-                        "     \r\n" +
-                        "     \r\n" +
-                        "    x\r\n" +
-                        "    v\r\n";
+                "     \r\n" +
+                "     \r\n" +
+                "    x\r\n" +
+                "    v\r\n";
 
         int xPos = 4;
         int yPos = 3;
@@ -259,10 +259,10 @@ class ViewTest {
     void renderPartsOfTheObjectOffScreenOnYAxis2X2RSL() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         String expected =
                 "     \r\n" +
-                        "     \r\n" +
-                        "     \r\n" +
-                        "     \r\n" +
-                        "   x>\r\n";
+                "     \r\n" +
+                "     \r\n" +
+                "     \r\n" +
+                "   x>\r\n";
 
         int xPos = 3;
         int yPos = 4;
