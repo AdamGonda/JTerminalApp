@@ -11,10 +11,10 @@ Animation:
 I made a 3D char array so you can create your frames composed a bunch of 2D arrays, and you even can choose from one shot and loop options.
 
 Buffer:
-I had to find a way to add and remove objects from the game, so I made this buffer abstraction to do so.
+I had to find a way to add and remove objects from the game without a ConcurrentModificationException, so I made this buffer abstraction to do so.
 
 Render:
-I used these 2D char arrays to represent the characters that the given app object likes to render out so I had to determine when they out of the view. 
+I used these 2D char arrays to represent the characters that the given AppObject likes to render out so I had to determine which part of them out of the view if they are.
 
 
 # So let's see what's inside
