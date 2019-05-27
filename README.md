@@ -5,6 +5,14 @@ I take the Unity framework as an example when I designed the mechanism of the Ap
 them and override their update method to get a unique behavior during frame updates in the engine. My main loop
 is not too sophisticated but it is working :D
 
+##### The most fun was to create the the render and buffer packages.
+
+Render:
+I used these 2D char arrays to represent the characters that the given app object likes to render out so I had to determine when they out of the view. 
+
+Buffer:
+I had to find a way to add and remove objects from the game, so I made this buffer abstraction to do so.
+
 # So let's see what's inside
 ![](https://github.com/AdamGonda/JTerminalApp/blob/master/packages.png)
 
