@@ -9,16 +9,14 @@ is not too sophisticated but it is working :D
 ![](https://github.com/AdamGonda/JTerminalApp/blob/master/packages.png)
 
 ### If you like to use this framework your only job is to inherit from AppObject class.
-After that, you can create your unique behavior using the update() method if you like to 
-do something in every update during runtime.
 ```java
 public class Spaceship extends AppObject {
     ...
 }
 ```
 
-When you need some kind of input from a user there is an Input class 
-that the App object gives access to you during running.
+After that, you can create your unique behavior using the update() method if you like to 
+do something in every update during runtime.
 ```java
 public void update() {
     this.checkUserInput();
